@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb7902fa08fc764d872dcc7e32a4795, type: 3}
+  m_Name: SignDataBase
+  m_EditorClassIdentifier: 
+  signLists:
+  - {fileID: 11400000, guid: 91f5ed62b90d820438b8a2c620989f07, type: 2}
+  - {fileID: 11400000, guid: 4d12d91a7e07aa944a1d8e2854715b72, type: 2}
+  - {fileID: 11400000, guid: 019f2f9107fb15e4b87b9d4fcca3f54d, type: 2}
+  - {fileID: 11400000, guid: 309dbb17b41bf8d499c5c3ae75c0cb47, type: 2}
+  - {fileID: 11400000, guid: 964dc2581521f2b4ba6f67b7072b9739, type: 2}
+  - {fileID: 11400000, guid: e4f692e70567891498856d0bb4235365, type: 2}
+  - {fileID: 11400000, guid: 8236dc60cca60db42b3d830df1a808de, type: 2}
+  - {fileID: 11400000, guid: 493a114330c4e304cbc5883c76931062, type: 2}
+  - {fileID: 11400000, guid: 6b16a701387e9cc42be7abaaf6273f74, type: 2}
+  - {fileID: 11400000, guid: 971a3144ff66fc343b22db403c6a7a1e, type: 2}
