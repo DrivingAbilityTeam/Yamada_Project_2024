@@ -30,6 +30,8 @@ namespace LogitechSDK
 
         if(Input.GetKey(KeyCode.UpArrow)){
             m_Car.Move(0, 1, 0, 0);
+
+            //Debug.Log("Move!!!!");
         }
 
 
