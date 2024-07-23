@@ -74,6 +74,8 @@ namespace LogitechSDK
 
         public void Move(float steering, float accel, float footbrake, float handbrake)
         {
+            //Debug.Log("received");
+
             for (int i = 0; i < 4; i++)
             {
                 Quaternion quat;
@@ -112,6 +114,8 @@ namespace LogitechSDK
 
             AddDownForce();
             TractionControl();
+
+            //Debug.Log("finish");
         }
 
         private void CapSpeed()

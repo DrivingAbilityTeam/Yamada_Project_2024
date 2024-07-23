@@ -23,20 +23,21 @@ namespace LogitechSDK
         {
             //m_Rigidbody.velocity = m_Rigidbody.velocity * 0.9f * Time.deltaTime;
 
-            //Debug.Log("Brake!!!!");
+            Debug.Log("Brake!!!!");
 
             m_Car.Move(0, 0, 1, 0);
         }
 
-        if(Input.GetKey(KeyCode.UpArrow)){
+        if(Input.GetKey(KeyCode.UpArrow))
+        {
             m_Car.Move(0, 1, 0, 0);
 
-            //Debug.Log("Move!!!!");
+            Debug.Log("Move!!!!");
         }
 
+        
 
-
-            if (!LogitechGSDK.LogiIsPlaying(0, LogitechGSDK.LOGI_FORCE_SPRING))
+            /*if (!LogitechGSDK.LogiIsPlaying(0, LogitechGSDK.LOGI_FORCE_SPRING))
             {
                 // ハンドルに中心に向けた力を加えるように設定
                 LogitechGSDK.LogiPlaySpringForce(0, 0, 30, 100);
@@ -65,7 +66,9 @@ namespace LogitechSDK
 #else
                 m_Car.Move(steering, 1, 0, 0);
 #endif
-            }
+            }*/
         }
+
+        
     }
 }
